@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #333333;
+    background-color: #F4F9FF;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-size: .875rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sec-title {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+#header {
+    margin-top: 60px;
+}
+
+#header .site-title {
+  width: 160px;
+  line-height: 1px;
+  margin-bottom: 15px;
+}
+
+#header .site-title a {
+    display: block;
+}
+
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+#index {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    margin-bottom: 60px;
+}
+
+#index .index-list {
+    margin-left: 20px;
+}
+
+#index .index-list li {
+    margin-bottom: 20px;
+}
+
+#index .index-list li:last-child {
+    margin-bottom: 0;
+}
+
+#detail {
+    margin-bottom: 115px;
+}
+
+#detail .content {
+    display: flex;
+}
+
+#detail img {
+    width: 270px;
+    margin-right: 60px;
+}
+
+#detail p {
+    margin-bottom: 20px;
+}
+
+#detail .content .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#detail dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0;
+    border-top: #DEDEDE solid 1px;
+    border-bottom: #DEDEDE solid 1px;
+    margin-bottom: 25px;
+}
+
+#detail dt {
+    width: 25%;
+}
+
+#detail dd {
+    width: 75%;
+}
+
+#detail .content .text .link {
+    color: #333333;
+    text-decoration: underline #333333 1px;
+}
+
+#footer p {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+    .inner {
+        padding: 0 40px;
+    }
+
+    #header {
+        padding: 0 10px;
+    }
+
+    #mainvisual {
+        padding: 0 10px;
+    }
+
+    #detail .content {
+        flex-direction: column;
+    }
+
+    #detail img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
