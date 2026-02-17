@@ -1,4 +1,4 @@
-# PHOTO BOOK (模写)
+# PHOTO BOOK
 
 CodeJumpの練習課題として作成した、フォトサイトの模写プロジェクトです。
 
